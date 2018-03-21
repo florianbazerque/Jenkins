@@ -1,0 +1,12 @@
+{
+    "name": "jenkins/test",
+    "require-dev": {
+        "phpunit/phpunit": "^7.0"
+    },
+    "autoload": {
+    	"psr-4": {
+    		"Grafikart\\" : "src/"
+    	}
+    },
+    "require": {}
+}
