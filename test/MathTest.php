@@ -7,7 +7,7 @@ class MathTest extends TestCase
 
 	//Test la fonction double de la class Math
 	public function testDouble(){
-		$this->assertEquals(5, \Grafikart\Math::double(2));
+		$this->assertEquals(4, \Grafikart\Math::double(2));
 	}
 
 	//Test la fonction double de la class Math avec une valeur de 0
